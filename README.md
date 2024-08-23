@@ -1,2 +1,2 @@
 # FreeProxy
- 
+Quickly obtain the latest SOCKS4, SOCKS5, HTTP, and HTTPS proxy nodes. Although you cannot get a large number of proxy nodes at once, you can permanently use this code to fetch the latest proxies. Moreover, new proxy nodes will be refreshed every few minutes. As long as you check every few minutes or hours, you will gain a substantial number of proxies (you will need to remove duplicate proxy nodes yourself)
