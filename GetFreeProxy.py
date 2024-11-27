@@ -23,11 +23,6 @@ def get_response(url, headers):
 
 
 proxy_list = [
-    {"ip": "39.107.70.7", "port": 22, "type": "socks5"},
-    {"ip": "116.255.147.37", "port": 3306, "type": "socks5"},
-    {"ip": "180.106.150.247", "port": 2222, "type": "socks4"},
-    {"ip": "120.25.222.150", "port": 1080, "type": "socks4"},
-    {"ip": "101.39.205.10", "port": 1080, "type": "socks4"},
     {"ip": "182.92.185.192", "port": 443, "type": "socks5"},
     {"ip": "8.140.255.223", "port": 443, "type": "socks4"},
     {"ip": "112.126.73.130", "port": 1080, "type": "socks5"},
