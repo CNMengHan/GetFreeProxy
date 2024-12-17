@@ -3,12 +3,10 @@ import json
 import socks
 import socket
 
-
 def set_proxy(proxy_info):
     proxy_type = socks.SOCKS4 if proxy_info["type"] == "socks4" else socks.SOCKS5
     socks.set_default_proxy(proxy_type, proxy_info["ip"], proxy_info["port"])
     socket.socket = socks.socksocket
-
 
 def get_response(url, headers):
     while True:
@@ -20,7 +18,6 @@ def get_response(url, headers):
                     return response
             except requests.RequestException:
                 print(f"Connection Error: {proxy['ip']}:{proxy['port']}")
-
 
 proxy_list = [
     {"ip": "182.92.185.192", "port": 443, "type": "socks5"},
